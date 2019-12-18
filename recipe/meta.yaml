@@ -1,5 +1,5 @@
 {% set name = "kitemviews" %}
-{% set version = "5.64.0" %}
+{% set version = "5.65.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kitemviews-{{ version }}.tar.xz
-  sha256: 0b3f8a0116c042ae187b67f35ffd40872352b91f5f236d19dd26ffad8db83fee
+  sha256: 689f2517432861932a05b5c71e1c8c1378bee6773850e8a13a5907d0af58d5cb
 
 build:
   number: 0
