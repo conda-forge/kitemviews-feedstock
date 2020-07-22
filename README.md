@@ -5,7 +5,7 @@ Home: https://api.kde.org/frameworks/kitemviews/html/index.html
 
 Package license: GPL-v2
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Set of item views extending the Qt model-view framework
 
