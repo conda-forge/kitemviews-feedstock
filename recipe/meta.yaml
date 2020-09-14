@@ -1,5 +1,5 @@
 {% set name = "kitemviews" %}
-{% set version = "5.73.0" %}
+{% set version = "5.74.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kitemviews-{{ version }}.tar.xz
-  sha256: ec29707d789bee58c47ee538319560a168642f69e96cacb78818825e47177727
+  sha256: 09417ce8b84dc81575ec3612ad0c19d923b2511051c0cb3b98282a013bae5ef7
 
 build:
   number: 0
@@ -39,9 +39,11 @@ test:
 
 about:
   home: https://api.kde.org/frameworks/kitemviews/html/index.html
-  license: GPL-v2
-  license_family: GPL
-  license_file: COPYING
+  license: GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later
+  license_file:
+    - LICENSES/GPL-2.0-or-later.txt
+    - LICENSES/LGPL-2.0-only.txt
+    - LICENSES/LGPL-2.0-or-later.txt
   summary: Set of item views extending the Qt model-view framework
   description: |
     KItemViews includes a set of views, which can be used with item models.
