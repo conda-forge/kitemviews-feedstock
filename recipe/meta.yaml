@@ -39,9 +39,11 @@ test:
 
 about:
   home: https://api.kde.org/frameworks/kitemviews/html/index.html
-  license: GPL-v2
-  license_family: GPL
-  license_file: COPYING
+  license: GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later
+  license_file:
+    - LICENSES/GPL-2.0-or-later.txt
+    - LICENSES/LGPL-2.0-only.txt
+    - LICENSES/LGPL-2.0-or-later.txt
   summary: Set of item views extending the Qt model-view framework
   description: |
     KItemViews includes a set of views, which can be used with item models.
