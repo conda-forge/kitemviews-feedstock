@@ -3,11 +3,13 @@ About kitemviews
 
 Home: https://api.kde.org/frameworks/kitemviews/html/index.html
 
-Package license: GPL-v2
+Package license: GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kitemviews-feedstock/blob/master/LICENSE.txt)
 
 Summary: Set of item views extending the Qt model-view framework
+
+Development: https://cgit.kde.org/kitemviews.git/tree
 
 KItemViews includes a set of views, which can be used with item models.
 It includes views for categorizing lists and to add search filters to
